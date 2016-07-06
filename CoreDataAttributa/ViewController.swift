@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 
     //管理オブジェクトコンテキスト
     var managedContext:NSManagedObjectContext!
+
     
     //最初からあるメソッド
     override func viewDidLoad() {
@@ -30,7 +31,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
         testTextField1.delegate = self
         testTextField2.delegate = self
     }
-    
+
+
     
     //保存データ表示メソッド
     func displayData(){
@@ -49,9 +51,12 @@ class ViewController: UIViewController, UITextFieldDelegate {
             testLabel.text = outputStr
             
         } catch {
-            print(error)
+            //エラーメッセージをアラートで表示する。
+            let alert = UIAlertController(title:"エラー", message:String(error), preferredStyle:UIAlertControllerStyle.Alert)
+            self.presentViewController(alert, animated:true, completion:nil)
         }
     }
+
 
 
     //Returnキー押下時の呼び出しメソッド
@@ -62,6 +67,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         return true
     }
+
 
     
     //ボタン押下時の呼び出しメソッド
@@ -80,7 +86,9 @@ class ViewController: UIViewController, UITextFieldDelegate {
             displayData()
 
         } catch {
-            print(error)
+            //エラーメッセージをアラートで表示する。
+            let alert = UIAlertController(title:"エラー", message:String(error), preferredStyle:UIAlertControllerStyle.Alert)
+            self.presentViewController(alert, animated:true, completion:nil)
         }
     }
 }
