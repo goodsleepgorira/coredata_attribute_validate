@@ -13,6 +13,8 @@
 		8800E89C1D2BCCB5000E9AFE /* CoreDataAttributa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8800E89A1D2BCCB5000E9AFE /* CoreDataAttributa.xcdatamodeld */; };
 		8800E89E1D2BCCB5000E9AFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8800E89D1D2BCCB5000E9AFE /* Assets.xcassets */; };
 		8800E8A11D2BCCB5000E9AFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8800E89F1D2BCCB5000E9AFE /* LaunchScreen.storyboard */; };
+		8800E8AA1D2BD11B000E9AFE /* Player+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800E8A81D2BD11B000E9AFE /* Player+CoreDataProperties.swift */; };
+		8800E8AB1D2BD11B000E9AFE /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8800E8A91D2BD11B000E9AFE /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8800E89D1D2BCCB5000E9AFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8800E8A01D2BCCB5000E9AFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8800E8A21D2BCCB5000E9AFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8800E8A81D2BD11B000E9AFE /* Player+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Player+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		8800E8A91D2BD11B000E9AFE /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,8 @@
 		8800E8871D2BCCB5000E9AFE = {
 			isa = PBXGroup;
 			children = (
+				8800E8A81D2BD11B000E9AFE /* Player+CoreDataProperties.swift */,
+				8800E8A91D2BD11B000E9AFE /* Player.swift */,
 				8800E8921D2BCCB5000E9AFE /* CoreDataAttributa */,
 				8800E8911D2BCCB5000E9AFE /* Products */,
 			);
@@ -140,6 +146,8 @@
 			files = (
 				8800E89C1D2BCCB5000E9AFE /* CoreDataAttributa.xcdatamodeld in Sources */,
 				8800E8961D2BCCB5000E9AFE /* ViewController.swift in Sources */,
+				8800E8AA1D2BD11B000E9AFE /* Player+CoreDataProperties.swift in Sources */,
+				8800E8AB1D2BD11B000E9AFE /* Player.swift in Sources */,
 				8800E8941D2BCCB5000E9AFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
