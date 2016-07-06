@@ -1,9 +1,5 @@
 //
 //  AppDelegate.swift
-//  CoreDataAttributa
-//
-//  Created by 齋藤緒 on 2016/07/05.
-//  Copyright © 2016年 TestOrganization. All rights reserved.
 //
 
 import UIKit
